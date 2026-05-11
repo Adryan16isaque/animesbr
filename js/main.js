@@ -61,23 +61,24 @@ function animarEntrada() {
           observer.unobserve(entry.target);
         }
       });
-    },
+    }
+    ,
     {
       threshold: 0.1,      // Dispara quando 10% do elemento aparece
       rootMargin: '0px 0px -40px 0px'  // Um pouco antes do fim da tela
     }
   );
 
-  alvos.forEach(function(alvo) {
+  alvos.forEach(function (alvo) {
     // Adiciona estado inicial para animação CSS
-    alvo.style.opacity = '0';
-    alvo.style.transform = 'translateY(20px)';
+    alvo.style.opacity = '1';
+    alvo.style.transform = 'translateY(0)';
     alvo.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
     observer.observe(alvo);
   });
 
   // Adiciona a classe visivel com delay escalonado
-  document.querySelectorAll('.visivel').forEach(function(el, i) {
+  document.querySelectorAll('.visivel').forEach(function (el, i) {
     el.style.transitionDelay = (i * 0.08) + 's';
     el.style.opacity = '1';
     el.style.transform = 'translateY(0)';
@@ -97,7 +98,7 @@ function formatarNumero(n) {
 // Debounce: evita que uma função execute muitas vezes seguidas
 function debounce(fn, delay) {
   let timer;
-  return function() {
+  return function () {
     clearTimeout(timer);
     timer = setTimeout(fn, delay);
   };
