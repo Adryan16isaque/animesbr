@@ -185,8 +185,8 @@
   display: flex;
   align-items: stretch;
 }
+/*Altera Inverte o Grid-column do .destaque-side .destaque-main Desafio 6*/
 
-/* Inverte o Grid-column do .destaque-side .destaque-main Desafio 6*/
 .destaque-side .destaque-thumb {
   flex: 0 0 140px;
   min-height: 160px;

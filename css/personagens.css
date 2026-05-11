@@ -181,7 +181,7 @@
 @media (max-width: 900px) {
   .personagens-full-grid { grid-template-columns: repeat(2, 1fr); }
 }
-/* 520px para  */
+/* Altera 520px para 768px, Desafio 6 */
 @media (max-width: 768px) {
   .personagens-full-grid { grid-template-columns: 1fr; }
   .filtros-bar { gap: 6px; }
