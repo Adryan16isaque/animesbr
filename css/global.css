@@ -46,6 +46,7 @@
   --radius-sm:    8px;
   --radius-md:    16px;
   --radius-lg:    24px;
+  --padding: 96px 0;
 
   /* Transições */
   --transition:   0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -84,7 +85,8 @@ body {
 
 /* ── SEÇÕES ── */
 .section {
-  padding: 96px 0;
+  padding: var(--padding);
+
 }
 
 /* ── SECTION HEADER ── */
@@ -102,7 +104,7 @@ body {
   color: var(--neon-green);
   background: rgba(0, 255, 136, 0.08);
   border: 1px solid rgba(0, 255, 136, 0.2);
-  padding: 6px 14px;
+  padding: var(--padding);
   border-radius: 100px;
   margin-bottom: 16px;
 }
@@ -280,6 +282,6 @@ body {
 
 /* ── RESPONSIVO BÁSICO ── */
 @media (max-width: 768px) {
-  .section { padding: 64px 0; }
+  .section { padding: var(--padding); }
   .page-hero-content { padding: 48px 24px; }
 }

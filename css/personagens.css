@@ -5,7 +5,7 @@
 
 /* ── FILTROS ── */
 .filtros-section {
-  padding: 24px 0;
+  padding: var(--padding);
   background: var(--bg-secondary);
   border-bottom: 1px solid var(--glass-border);
   position: sticky;
