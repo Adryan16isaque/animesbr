@@ -145,7 +145,7 @@ function setupFiltros() {
   // const barraFiltros = document.querySelector('.filtro-btn');  
   
   // if (!barraFiltros) return; 
-  
+  //Altera dois acima, comenta eles pois nao existe Desafio 7
   const botoes = document.querySelectorAll('.filtro-btn');
   
   botoes.forEach(function(btn) {
