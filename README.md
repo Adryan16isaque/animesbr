@@ -116,7 +116,7 @@ animesbr/
 **Problema:** No modo claro, esses textos ficam com cores escuras demais para o fundo claro.  
 
 
-**Segundo problema:** O botão de tema não funciona.  
+**Segundo problema:** O botão de tema não funciona.
 
 
 ---
@@ -145,8 +145,8 @@ O botão hamburguer nunca fica visualmente "ativo" (as três barras não viram X
 - [x] Desafio 6: Grid de destaques com proporções corretas
 - [x] Desafio 7: Filtro de personagens funcionando
 - [x] Desafio 8: Regra CSS duplicada unificada
-- [ ] Desafio 9: Padding de seções padronizado
-- [ ] Desafio 10: Dark mode completo + botão de tema funcionando
+- [x] Desafio 9: Padding de seções padronizado
+- [x] Desafio 10: Dark mode completo + botão de tema funcionando
 - [ ] Bônus B1: CSS inline extraído para arquivos separados
 - [ ] Bônus B2: Menu hamburguer corrigido
 

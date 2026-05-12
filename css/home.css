@@ -38,7 +38,7 @@
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: white;
+  color: var(--text-primary);
   /* altera para branco Desafio 1 */
   margin-bottom: 20px;
 }
@@ -61,7 +61,7 @@
 
 .hero-desc {
   font-size: 1.1rem;
-  color: white;
+  color: var(--text-primary);
   /* Altera para branco Desafio 1*/
   line-height: 1.8;
   max-width: 480px;

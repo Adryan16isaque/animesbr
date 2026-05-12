@@ -36,7 +36,7 @@ function applyTheme(tema) {
 // Atualiza o ícone do botão de tema
 function updateThemeIcon(icone) {
 
-  const btn = document.getElementById('btn-theme');  
+  const btn = document.querySelector('#theme-btn-toggle');  
 
   if (btn) {
     btn.textContent = icone;
@@ -54,8 +54,9 @@ function toggleTheme() {
 // Adiciona listener no botão correto
 function setupThemeBtn() {
   
-  const btn = document.getElementById('btn-theme');  
-
+  const btn = document.querySelector('#theme-btn-toggle');  
+  // console.log(btn);
+  
   if (btn) {
     btn.addEventListener('click', toggleTheme);
   }
