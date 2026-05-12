@@ -141,10 +141,10 @@ O botão hamburguer nunca fica visualmente "ativo" (as três barras não viram X
 - [x] Desafio 2: Padding dos inputs equilibrado
 - [x] Desafio 3: Botões do hero lado a lado (flex-direction: row)
 - [x] Desafio 4: Fonte das notícias padronizada (Syne)
-- [ ] Desafio 5: object-fit corrigido nos cards
-- [ ] Desafio 6: Grid de destaques com proporções corretas
-- [ ] Desafio 7: Filtro de personagens funcionando
-- [ ] Desafio 8: Regra CSS duplicada unificada
+- [x] Desafio 5: object-fit corrigido nos cards
+- [x] Desafio 6: Grid de destaques com proporções corretas
+- [x] Desafio 7: Filtro de personagens funcionando
+- [x] Desafio 8: Regra CSS duplicada unificada
 - [ ] Desafio 9: Padding de seções padronizado
 - [ ] Desafio 10: Dark mode completo + botão de tema funcionando
 - [ ] Bônus B1: CSS inline extraído para arquivos separados

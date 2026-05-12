@@ -149,17 +149,13 @@ body {
   border-color: var(--neon-green);
 }
 
-
+/* Altera para desafio 8 */
 .btn-primary:hover {
   background: transparent;
   color: var(--neon-green);
   box-shadow: var(--shadow-neon);
-}
-
-
-.btn-primary:hover {
   transform: translateY(-3px);
- }
+}
 
 .btn-outline {
   background: transparent;
