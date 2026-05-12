@@ -142,12 +142,12 @@ function gerarCardsFull() {
 
 // ── FILTROS DE PERSONAGENS ────────────────────
 function setupFiltros() {
-  const barraFiltros = document.querySelector('#filtros');  
-
-  if (!barraFiltros) return; 
-
-  const botoes = barraFiltros.querySelectorAll('.filtro-btn');
-
+  // const barraFiltros = document.querySelector('.filtro-btn');  
+  
+  // if (!barraFiltros) return; 
+  
+  const botoes = document.querySelectorAll('.filtro-btn');
+  
   botoes.forEach(function(btn) {
     btn.addEventListener('click', function() {
       // Remove active de todos
@@ -155,6 +155,7 @@ function setupFiltros() {
       btn.classList.add('active');
 
       const filtro = btn.getAttribute('data-filter');
+      
       filtrarCards(filtro);
     });
   });
