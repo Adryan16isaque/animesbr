@@ -185,6 +185,7 @@
   display: flex;
   align-items: stretch;
 }
+
 /*Altera Inverte o Grid-column do .destaque-side .destaque-main Desafio 6*/
 
 .destaque-side .destaque-thumb {
@@ -332,7 +333,7 @@
   align-items: center;
   justify-content: center;
   font-size: 5rem;
-  object-fit: fill;
+  object-fit: contain;
   /* Altera para none Desafio 5*/
   position: relative;
   overflow: hidden;
@@ -478,6 +479,19 @@
 
   .noticias-grid {
     grid-template-columns: 1fr;
+  }
+
+  .destaques-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .destaque-main {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .destaque-side {
+    grid-column: auto;
   }
 }
 

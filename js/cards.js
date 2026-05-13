@@ -142,9 +142,9 @@ function gerarCardsFull() {
 
 // ── FILTROS DE PERSONAGENS ────────────────────
 function setupFiltros() {
-  // const barraFiltros = document.querySelector('.filtro-btn');  
+  const barraFiltros = document.querySelector('.filtro-btn');  
   
-  // if (!barraFiltros) return; 
+  if (!barraFiltros) return; 
   //Altera dois acima, comenta eles pois nao existe Desafio 7
   const botoes = document.querySelectorAll('.filtro-btn');
   
