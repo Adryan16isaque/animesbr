@@ -147,7 +147,7 @@ O botão hamburguer nunca fica visualmente "ativo" (as três barras não viram X
 - [x] Desafio 8: Regra CSS duplicada unificada
 - [x] Desafio 9: Padding de seções padronizado
 - [x] Desafio 10: Dark mode completo + botão de tema funcionando
-- [ ] Bônus B1: CSS inline extraído para arquivos separados
+- [x] Bônus B1: CSS inline extraído para arquivos separados
 - [ ] Bônus B2: Menu hamburguer corrigido
 
 ---
